@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model ConverterViewModel
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="text-center">
+        <h1 class="display-4">C# Data Model to SQL Table</h1>
+        <div class="row">
+            <input id="Submit" type="submit" class="btn btn-primary" name="Convert" value="Convert" />
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.TextAreaFor(m => m.CSharpClass, 20, 100, new{ @class="col-md-10" })
+            </div>
+            <div class="col-md-6">
+                @Html.TextAreaFor(m => m.SqlTable, 20, 100, new{ @class="col-md-10" })
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    .row {
+        margin: 5px 0px 5px 0px;
+    }
+</style>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersToolkit", "CodersToolkit\CodersToolkit.csproj", "{11840E41-3E89-4285-90EA-06241224EE3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11840E41-3E89-4285-90EA-06241224EE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11840E41-3E89-4285-90EA-06241224EE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11840E41-3E89-4285-90EA-06241224EE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11840E41-3E89-4285-90EA-06241224EE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3CA8C8F-775A-46CA-BF60-883D5B23D17D}
+	EndGlobalSection
+EndGlobal
